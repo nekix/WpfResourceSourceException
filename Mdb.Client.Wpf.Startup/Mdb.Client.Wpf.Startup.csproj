@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mdb.Client.Wpf.Authorization\Mdb.Client.Wpf.Authorization.csproj" />
+    <ProjectReference Include="..\Mdb.Client.Wpf.Shared\Mdb.Client.Wpf.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
